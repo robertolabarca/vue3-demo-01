@@ -7,8 +7,8 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
+  <h1 class="text-3xl font-bold underline">{{ msg }}</h1>
+  <h3 class="text-3xl font-bold"> HOLA MUNDO </h3>
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -31,6 +31,8 @@ const count = ref(0)
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+
+
 </template>
 
 <style scoped>
